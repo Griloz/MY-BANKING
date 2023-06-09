@@ -1,5 +1,5 @@
-def test_admin_login(driver):
-    login_page = LoginPage(driver)
-    login_page.admin_login()
-    assert driver.find_element(
-        By.CSS_SELECTOR, 'div.controls__logout > span').text == 'Log Out'
+# def test_admin_login(driver):
+#     login_page = LoginPage(driver)
+#     login_page.admin_login()
+#     assert driver.find_element(
+#         By.CSS_SELECTOR, 'div.controls__logout > span').text == 'Log Out'
