@@ -1,0 +1,9 @@
+*.log
+*.png
+*.html
+*.xml
+*.jpg
+evidence/
+__pycache__/
+assets/
+.vscode/
