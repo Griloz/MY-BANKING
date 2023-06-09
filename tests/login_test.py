@@ -31,6 +31,7 @@ invalid_login_parameters = [
     ('aa', 'test', 'Should be minimum 4 chars'),
     ('test', 'test', 'Wrong username or password'),
     ('', '', 'Field is required.'),
+    ('', '234', 'Field is required.'),
 ]
 
 
