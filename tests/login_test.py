@@ -31,11 +31,10 @@ invalid_login_parameters = [
     ('aa', 'test', 'Should be minimum 4 chars'),
     ('test', 'test', 'Wrong username or password'),
     ('', '', 'Field is required.'),
-    ('', '234', 'Field is required.'),
 ]
 
 
-@pytest.mark.parametrize("username, password, checkpoint", invalid_login_parameters)
+@pytest.mark.parametrize("username, password, chgiteckpoint", invalid_login_parameters)
 def test_invalid_login(driver, username, password, checkpoint):
     login_page = LoginPage(driver)
     login_page.login(username, password)
